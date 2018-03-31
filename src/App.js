@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
-import PopUp from './components/pop_up/pop_up';
+import Navigation from './components/navigation/navigation';
+import Fill_Form from './components/fill_form/fill_form';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="back">
-  <p><b><a href="https://www.facebook.com/" target="_blank">aaaa</a></b></p>
-      <br/>
-      dgddgdg
-      <div>
-     <PopUp />
-     </div>
-  
+      <div className="container">
+        <div className="navigation">
+          <Navigation />
+        </div>
+        <div>
+          <p className="title">Multi Step Registration Form</p>
+          <p className="description">This is a free multi-step registration form <br />
+            Customize and use it as you like!</p>
+        </div>
+        <div>
+          <Fill_Form />
+        </div>  
       </div>
     );
   }
 }
 
-export default App;
+

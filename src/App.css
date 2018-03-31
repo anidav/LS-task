@@ -1,8 +1,16 @@
-.App {
+.container {
   text-align: center;
+  background-color: #868bc3;
 }
 
-.back {
-  background-color: #2196F3;
-  height : 100vh
+.title {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.description {
+  color: #fff;
+  margin-top: 0;
 }

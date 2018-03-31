@@ -13,7 +13,16 @@ export default class PageTwo extends Component {
 
     return (
       <div className="App">
-    Ani
+        {/* <div className="button_div">
+          <Button button_name='Next'
+          fake ={this.state.fake}
+          toggleButton={this.toggleButton} />
+          <Button button_name='Previous'
+          fake ={this.state.fake}
+          toggleButton={this.toggleButton} 
+          button_className='active'
+          />
+        </div> */}
       </div>
     );
   }

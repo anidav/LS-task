@@ -1,0 +1,11 @@
+.navigation {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register {
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+}

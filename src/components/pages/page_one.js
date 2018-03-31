@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Single_Input from './../common/single_input';
 import Button from './../common/button';
-import './../pop_up/pop_up.css';
+import './../common/single_input.css';
 
 export default class PageOne extends Component {
     constructor(props){
@@ -97,20 +97,19 @@ export default class PageOne extends Component {
         })    
 
         return (
-            <div className="App">
+            <div className="fieldset">
+                <p className="steps">Step 1/4</p>
+               
                 {result}
-                <select>
-                    <option >Select car:</option>
-                    <option value="1">Audi</option>
+                <select className="fields">
+                    <option>Company</option>
+                    <option>Individual</option>
                 </select>
-                <Button button_name='Next'
-                    fake ={this.state.fake}
-                    toggleButton={this.toggleButton} />
-                <Button button_name='Previous'
-                    fake ={this.state.fake}
-                    toggleButton={this.toggleButton} 
-                    button_className='active'
-                />
+                <div className="button_div">
+                    <Button button_name='Next'
+                        fake ={this.state.fake}
+                        toggleButton={this.toggleButton} />
+                </div>
             </div>
         );
     }

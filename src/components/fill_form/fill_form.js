@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import './pop_up.css';
-
-
+import './fill_form.css';
 import PageOne from './../pages/page_one';
 import PageTwo from './../pages/page_two';
 
-export default class Pop_Up extends Component {
+export default class Fill_Form extends Component {
   constructor(props){
     super(props);
     this.state = {
-just : true
+    just : true
 }  
 }
   bla = (fake) => {
@@ -20,7 +18,7 @@ just : true
    }
   render() {
     return (
-      <div className="back">
+      <div>
     
      {
       !this.fake ?  <PageOne bla = {this.bla} /> : <PageTwo/>

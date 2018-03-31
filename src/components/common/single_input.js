@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './single_input.css';
 
 
 export default class Single_Input extends Component {
@@ -17,9 +18,9 @@ this.state = {
     
       
     return (
-      <div className="App">
+      <div>
       {a}
-     <input 
+     <input className="fields"
      placeholder = {this.props.placeholder}
      onChange = {this.props.onChange}/>
       </div>
