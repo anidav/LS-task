@@ -12,8 +12,8 @@ export default class App extends Component {
         </div>
         <div>
           <p className="title">Multi Step Registration Form</p>
-          <p className="description">This is a free multi-step registration form <br />
-            Customize and use it as you like!</p>
+          <p className="description">This is a free multi-step registration form.
+          Customize and use it as you like!</p>
         </div>
         <div>
           <Fill_Form />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './../common/button';
+import './../common/button.css';   
 
 export default class PageTwo extends Component {
     constructor(props){
@@ -12,18 +13,27 @@ export default class PageTwo extends Component {
 
 
     return (
-      <div className="App">
-        {/* <div className="button_div">
-          <Button button_name='Next'
-          fake ={this.state.fake}
-          toggleButton={this.toggleButton} />
-          <Button button_name='Previous'
-          fake ={this.state.fake}
-          toggleButton={this.toggleButton} 
-          button_className='active'
+      <div className="fieldset">
+        <p className="steps">Step 2 / 4</p>
+        <input type="radio" name="package"/>Standard Package<br />
+        <input type="radio" name="package"/>Premium Package    
+         
+        <div className="button_div">
+          <Button   
+            button_name='Previous' 
+            button_className="button active"                    
+            // fake ={this.state.fake}
+            // toggleButton={this.toggleButton} 
           />
-        </div> */}
+          <Button   
+            button_name='Next' 
+            button_className="button next"                    
+            // fake ={this.state.fake}
+            // toggleButton={this.toggleButton} 
+          />
+        </div>
       </div>
     );
   }
 }
+
