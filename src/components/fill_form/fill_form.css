@@ -1,5 +1,5 @@
 .fieldset {
-    border: 1px solid #7b7474;
+    border: 3px solid #d8d4d4;
     border-radius: 10px;
     outline: none;
     width: 50%;
@@ -14,8 +14,22 @@
     font-size: 30px;
 }
 
+.package {
+    color: #494848;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid #d8d4d4;
+    border-radius: 10px;
+}
+
+.congrats {
+    color: rgb(73, 72, 72);
+}
+
 @media only screen and (max-width: 767px) {
     .fieldset {
         width: 90% !important;
-   }
+    }
 }

@@ -1,25 +1,16 @@
-.button {
-    font-size:  25px;
-    border: 1px solid rgb(214, 214, 219);
-    
-    color: #fff;
-    border-radius: 5px;
-    outline: none;
-    padding: 0 20px;
-    cursor: pointer;    
-}
-
-.next {
-    background-color: rgb(133, 134, 136);
-}
-
-.active {
-    background-color: rgb(132, 99, 185);
-}
 .button_div {
     display: flex;
     justify-content: center;
 }
-/* .button:hover {
-    background-color: rgb(165, 130, 219);
-} */
+
+.button_item {
+    font-size:  25px;
+    border: 1px solid rgb(214, 214, 219); 
+    background-color: rgb(104, 83, 136);   
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 20px;
+    cursor: pointer;   
+}
+

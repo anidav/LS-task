@@ -6,8 +6,7 @@ import mail from './../images/mail_logo.png';
 import skype from './../images/skype_logo.png';
 
 export default class Navigation extends Component {
-    render() {
-        
+    render() {        
         return (
             <nav className="navigation">
                 <div>

@@ -1,33 +1,27 @@
 import React, { Component } from 'react';
 import Button from './../common/button';
-import './../common/button.css';   
+import './../common/button.css';
 
-export default class PageTwo extends Component {
+export default class PageFour extends Component {
     constructor(props){
         super(props);
 
-
-
 }
-  render() {
-
-
-    return (
-        <div className="fieldset">
-            <h2>Congratulations!</h2>
-        
-         
-        <div className="button_div">
-            <Button   
-                button_name='Previous' 
-                button_className="button active"                    
-            />
-            <Button   
-                button_name='Sign Up!' 
-                button_className="button active"                    
-            />
-        </div>
-      </div>
-    );
-  }
+togglePreviousButton = () => {
+    this.props.pageControl(3)
+}
+    render() {
+        return (
+            <div className="fieldset">
+                <div className="congrats">
+                    <h2>Congratulations!</h2>
+                    <h3>You have been successfully registered!</h3>                         
+                </div>                
+                <Button   
+                    button_name='Sign Up!' 
+                    button_className="button_item"                   
+                />               
+            </div>
+        );
+    }
 }
