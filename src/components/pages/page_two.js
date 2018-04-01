@@ -14,7 +14,7 @@ export default class PageTwo extends Component {
 
     return (
       <div className="fieldset">
-        <p className="steps">Step 2 / 4</p>
+        <p className="steps">Step 2 / 3</p>
         <input type="radio" name="package"/>Standard Package<br />
         <input type="radio" name="package"/>Premium Package    
          

@@ -5,9 +5,9 @@ import './single_input.css';
 export default class Single_Input extends Component {
   constructor(props){
     super(props);
-    this.state = {
+    // this.state = {
     
-    }
+    // }
       
   }
       

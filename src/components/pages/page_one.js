@@ -15,7 +15,7 @@ export default class PageOne extends Component {
             input5: '',
             input6: '',
             isActive: false
-    }    
+        }    
     this.arr = [
         {
             placeholder: 'First Name...',
@@ -98,7 +98,7 @@ export default class PageOne extends Component {
 
         return (
             <div className="fieldset">
-                <p className="steps">Step 1 / 4</p>               
+                <p className="steps">Step 1 / 3</p>               
                 {result}
                 <select className="fields">
                     <option>Company</option>
@@ -107,7 +107,7 @@ export default class PageOne extends Component {
                 <div className="button_div">
                     <Button   
                         button_name='Next' 
-                        button_className="button"                    
+                        button_className="button next"                    
                         fake ={this.state.fake}
                         toggleButton={this.toggleButton} 
                     />

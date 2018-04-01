@@ -3,13 +3,14 @@ import './fill_form.css';
 import PageOne from './../pages/page_one';
 import PageTwo from './../pages/page_two';
 import PageThree from './../pages/page_three';
+import PageFour from './../pages/page_four';
 
 export default class Fill_Form extends Component {
   constructor(props){
     super(props);
-    this.state = {
-    just : true
-}  
+//     this.state = {
+//     just : true
+// }  
 }
   bla = (fake) => {
     this.setState({
@@ -19,12 +20,12 @@ export default class Fill_Form extends Component {
    }
   render() {
     return (
-      <div>
+      
     
-     {
-      !this.fake ?  <PageTwo bla = {this.bla} /> : <PageTwo/>
-     }
-      </div>
+     
+      !this.fake ?  <PageOne bla = {this.bla} /> : <PageTwo/>
+     
+      
     );
   }
 }

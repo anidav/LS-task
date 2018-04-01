@@ -9,7 +9,7 @@ export default class Navigation extends Component {
     render() {
         
         return (
-            <div className="navigation">
+            <nav className="navigation">
                 <div>
                     <a className="register" href="">register</a>           
                 </div>
@@ -18,10 +18,8 @@ export default class Navigation extends Component {
                     <a href="https://twitter.com"><img className="logo" src={twitter} /></a>
                     <a href="https://mail.ru"><img className="logo" src={mail} /></a>
                     <a href="https://www.skype.com"><img className="logo" src={skype} /></a>
-
-                </div>                
-            </div>
-      
+                </div>  
+            </nav>          
         );
     }
 }

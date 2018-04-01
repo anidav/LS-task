@@ -69,7 +69,7 @@ export default class PageThree extends Component {
 
     return (
       <div className="fieldset">
-        <p className="steps">Step 3 / 4</p>               
+        <p className="steps">Step 3 / 3</p>               
         {result}
         <div className="button_div">
           <Button   
