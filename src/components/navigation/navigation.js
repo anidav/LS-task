@@ -10,13 +10,21 @@ export default class Navigation extends Component {
         return (
             <nav className="navigation">
                 <div>
-                    <a className="register" href="">register</a>           
+                    <a className="register" href="/">register</a>           
                 </div>
                 <div className="logos">
-                    <a href="https://www.facebook.com/"><img className="logo" src={facebook} /></a>
-                    <a href="https://twitter.com"><img className="logo" src={twitter} /></a>
-                    <a href="https://mail.ru"><img className="logo" src={mail} /></a>
-                    <a href="https://www.skype.com"><img className="logo" src={skype} /></a>
+                    <a href="https://www.facebook.com/" target="_blank" >
+                        <img className="logo" src={facebook} alt="facebook_logo" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank" >
+                        <img className="logo" src={twitter} alt="twitter_logo" />
+                    </a>
+                    <a href="https://mail.ru" target="_blank" >
+                        <img className="logo" src={mail} alt="mail_logo" />
+                    </a>
+                    <a href="https://www.skype.com" target="_blank" >
+                        <img className="logo" src={skype} alt="skype_logo" />
+                    </a>
                 </div>  
             </nav>          
         );
