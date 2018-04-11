@@ -10,13 +10,13 @@ export default class PageTwo extends Component {
       <div className="fieldset">
         <p className="steps">Step 2 / 3</p>
         <div className="package">
-          <label htmlFor="standard"> Standart 
+          <label htmlFor="standard"> Standard 
           <Input               
             type="radio"
             name="package"
-            value="Standart"
-            id="standart"
-            checked={this.props.step2.package}
+            value="Standard"
+            id="standard"
+            checked={this.props.step2.package === "Standard"} 
             onChange={this.props.onChange}
           />       
           </label> 
@@ -26,7 +26,7 @@ export default class PageTwo extends Component {
             name="package"
             value="Premium"
             id="premium"
-            checked={this.props.step2.package}
+            checked={this.props.step2.package === "Premium"}
             onChange={this.props.onChange}
           />  
           </label>                  

@@ -68,7 +68,7 @@ class Input extends React.Component {
 						value={this.props.value}
 						id={this.props.id}
 						className={this.props.className}
-						checked={this.props.defaultChecked}
+						checked={this.props.checked}
 						onChange={this.validate}
 					/>
 				}
